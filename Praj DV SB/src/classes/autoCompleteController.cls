@@ -1,5 +1,5 @@
 global class autoCompleteController {
-    
+    // Remote Action
     @RemoteAction
     global static SObject[] findSObjects(string obj, string qry, string addFields) {
         // more than one field can be passed in the addFields parameter
